@@ -2,7 +2,7 @@ import { addDays, subDays, format, formatISO } from "date-fns"
 import { ptBR } from 'date-fns/locale'
 
 //Para que um componente não seja importado um pelo outro e se torne recursivo, importamos com o nome final do componente
-import { Icon } from '~/components/Icon'
+import { Icon } from '~/components/icon'
 
 export const DateSelect = ({currentDate, onChange}) => {
   const date = new Date(currentDate)
